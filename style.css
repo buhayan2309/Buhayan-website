@@ -1,0 +1,169 @@
+* body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color: blue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul a:focus{
+    color:  rgb(7, 3, 1),;
+    background-color: rgb(3, 3, 1);
+}
+
+.a {
+    width: 2000px;
+    height: 130vh;
+    background-image: url(0b9b6778-f2d1-43ec-a56c-854c13204823.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1.0;
+}
+
+.b {
+    width: 2000px;
+    height: 130vh;
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c {
+    width: 2000px;
+    height: 130vh;
+    background: burlywood;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d {
+    width: 2000px;
+    height: 130vh;
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a1 {
+    padding: 20px;
+}
+
+.sean{
+margin-left: 335px;
+margin-top: -200px;
+font-size: 20px;
+font-family: cursive;
+}
+.del{
+    margin-left: 3px;
+    margin-top: 200px;
+}
+.cruz{
+     margin-left: 330px;
+     margin-top: -200px;
+     font-size: 20px;
+     font-family: cursive;
+}
+.hat{
+    margin-top: 200px;
+}
+.otlong{
+    margin-left: 350px;
+    margin-top: -200px;
+}
+.domingo{
+    margin-left: 800px;
+    margin-top: -750px;
+}
+.hak{
+    margin-left: 350px;
+    margin-top: -255px;
+
+}
+.abc{
+    margin-left: -350px;
+}
+.video{
+    margin-left: 360px;
+    margin-top: -200px;
+}
+.christian {
+    padding-left: 175px;
+    padding-top: 20px;
+}
+.baby{
+    padding-left: 800px;
+}
+.baby :hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.hak{
+    padding-left: 800px;
+    padding-top: 100px;
+}
+.hak :hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.abc{
+    padding-left: 1500px;
+    padding-top: -30px;
+}
+.abc :hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.video {
+    padding-left: 425px;
+    padding-top: 50px;
+}
+.video :hover{
+transform: scale(1.1);
+    transition: 2s;
+}
+.comment-box{
+    width: 500px;
+    align-items: center;
+    padding-left: 30%;
+    padding-top: 20%;
+}
+.comment-box input{ 
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+.comment-box textarea{
+    width: 100%;
+    height: 250px;
+}
+.comment-box button{
+    border: 0;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
